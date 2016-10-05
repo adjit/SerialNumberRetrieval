@@ -58,7 +58,7 @@
             // 
             this.getSerialNumbersButton.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
             this.getSerialNumbersButton.Image = global::SerialNumberRetrieval.Properties.Resources.tracking_number_512;
-            this.getSerialNumbersButton.Label = "Get Serial Numbers";
+            this.getSerialNumbersButton.Label = "Get Serial Numbers By Invoice";
             this.getSerialNumbersButton.Name = "getSerialNumbersButton";
             this.getSerialNumbersButton.ShowImage = true;
             this.getSerialNumbersButton.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.getSerialNumbersButton_Click);
