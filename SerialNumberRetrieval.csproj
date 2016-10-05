@@ -34,10 +34,10 @@
     <PublishUrl>D:\Users\atawil\Documents\Visual Studio 2015\Projects\1- Deployment\SerialNumberRetrievalByInvoice-EH\</PublishUrl>
     <InstallUrl />
     <TargetCulture>en</TargetCulture>
-    <ApplicationVersion>1.0.0.3</ApplicationVersion>
+    <ApplicationVersion>1.0.0.7</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
     <UpdateEnabled>true</UpdateEnabled>
-    <UpdateInterval>7</UpdateInterval>
+    <UpdateInterval>0</UpdateInterval>
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
     <ProductName>Serial Number Retrieval by Invoice</ProductName>
     <PublisherName>Aaron Tawil</PublisherName>
