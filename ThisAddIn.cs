@@ -173,7 +173,27 @@ namespace SerialNumberRetrieval
             {
                 while (reader.Read())
                 {
-                    thisRow = new Row(
+                    try
+                    {
+                        thisRow = new Row(
+                            reader.GetValue(SHIPTOCOL), reader.GetValue(ACTLSHIP),
+                            reader.GetValue(SOPNUMBE), reader.GetValue(ITEMNMBR),
+                            reader.GetValue(QUANTITY), reader.GetValue(UNITCOST),
+                            reader.GetValue(CMMTTEXT));
+
+                        if (thisRow.quantity != thisRow.serialNumbers.Length - 1)
+                        {
+                            System.Diagnostics.Debug.WriteLine("Quantity does not match the number of serial numbers");
+                        }
+
+                        thisRow.parseRow(thisWorksheet);
+                    }
+                    catch (Exception e)
+                    {
+                        System.Windows.Forms.MessageBox.Show(e.ToString());
+                        throw;
+                    }
+                    /*thisRow = new Row(
                         reader.GetValue(SHIPTOCOL), reader.GetValue(ACTLSHIP),
                         reader.GetValue(SOPNUMBE), reader.GetValue(ITEMNMBR),
                         reader.GetValue(QUANTITY), reader.GetValue(UNITCOST),
@@ -184,7 +204,7 @@ namespace SerialNumberRetrieval
                         System.Diagnostics.Debug.WriteLine("Quantity does not match the number of serial numbers");
                     }
 
-                    thisRow.parseRow(thisWorksheet);
+                    thisRow.parseRow(thisWorksheet);*/
 
                     /*for (int i = 0; i < NUMCOLUMNS; i++)
                     {

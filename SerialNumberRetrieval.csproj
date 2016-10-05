@@ -31,7 +31,7 @@
     <DefineConstants>VSTO40</DefineConstants>
     <IsWebBootstrapper>False</IsWebBootstrapper>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <PublishUrl>D:\Users\atawil\Documents\Visual Studio 2015\Projects\1- Deployment\SerialNumberRetrievalByInvoice\</PublishUrl>
+    <PublishUrl>D:\Users\atawil\Documents\Visual Studio 2015\Projects\1- Deployment\SerialNumberRetrievalByInvoice-EH\</PublishUrl>
     <InstallUrl />
     <TargetCulture>en</TargetCulture>
     <ApplicationVersion>1.0.0.3</ApplicationVersion>
