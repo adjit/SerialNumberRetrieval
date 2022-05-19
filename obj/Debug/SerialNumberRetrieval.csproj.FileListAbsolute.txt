@@ -15,9 +15,9 @@ D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\Se
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\bin\Debug\Microsoft.Office.Tools.Excel.xml
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\obj\Debug\SerialNumberRetrieval.csprojResolveAssemblyReference.cache
+D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\obj\Debug\SerialNumberRetrieval.InvoiceNumberForm.resources
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\obj\Debug\SerialNumberRetrieval.Properties.Resources.resources
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\obj\Debug\SerialNumberRetrieval.SerialNumberRibbon.resources
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\obj\Debug\SerialNumberRetrieval.csproj.GenerateResource.Cache
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\obj\Debug\SerialNumberRetrieval.dll
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\obj\Debug\SerialNumberRetrieval.pdb
-D:\Users\atawil\Documents\Visual Studio 2015\Projects\Serial Number Retrieval\SerialNumberRetrieval\obj\Debug\SerialNumberRetrieval.InvoiceNumberForm.resources

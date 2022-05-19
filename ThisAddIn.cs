@@ -165,7 +165,16 @@ namespace SerialNumberRetrieval
             cmd.CommandType = CommandType.Text;
             cmd.Connection = dbConnection;
 
-            dbConnection.Open();
+            try
+            {
+                dbConnection.Open();
+            }
+            catch (Exception e)
+            {
+                System.Windows.Forms.MessageBox.Show("An error occured when opening database connection - \n\n" + e.ToString(),
+                    "ERROR",System.Windows.Forms.MessageBoxButtons.OK,System.Windows.Forms.MessageBoxIcon.Error);
+                throw;
+            }
 
             reader = cmd.ExecuteReader();
 
